@@ -1,0 +1,118 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,700);
+/* *selector universal */
+*{
+	box-sizing: border-box;
+	/* descuenta del widht y height, lo sumado en el padding y borde */
+}
+body{
+	font-family: 'Raleway', sans-serif;
+	margin: 0;
+}
+.numeroplanuno{ color: #00aeeb; }
+.numeroplandos{ color: #fbdb66; }
+.numeroplantres{ color: orange; }
+.numeroplancuatro{ color: red; }
+.tduno{ text-align: center; }
+footer{ text-align: center;}
+h3, h4, nav{ text-transform: uppercase; }
+
+.main-header{
+	width: 1200px; 
+	margin: auto;
+	padding: 20px 0;
+	}
+.main-nav{
+	float: right;
+}
+.main-nav li{
+	float: left;
+	margin: 8px 0 0 15px;
+}
+.logo{
+	float: left;
+}
+.cleaner{
+	clear: both;
+}
+#banner{
+	background: url(../images/indexbanner-bg3.jpg) center top no-repeat;
+	background-size: cover; 
+}
+.container{
+	width: 1200px;
+	margin: auto;
+}
+.banner-title{
+	color: white;
+	font-size: 40px;
+	padding-top: 120px;
+	margin: 0;
+}
+.bajada{
+	color: white;
+	padding-bottom: 120px;
+	margin: 10px 0 0 0;
+	line-height: 30px;
+}
+.register{
+	background-color: #06b4f2;
+	position: relative;
+	top: 30px;
+}
+.register input{
+	width: 1000px;
+	height: 90px;
+	font-size: 16px;
+	font-family: inherit;
+	padding-left: 15px;
+}
+.register button{
+	border: none;
+	background-color: #06b4f2;
+	width: 195px;
+	height: 80px;
+	font-size: inherit;
+	color: white;
+	text-transform: uppercase;
+}
+.productos{ 
+	text-align: center;
+	width: 300px;
+	float: left;
+	margin-top: 100px;
+}
+.productos p{
+	font-size: 13px;
+	line-height: 30px;
+}
+
+
+/* h2{ font-size: 45px;} */ 
+
+/* Resets */
+/* agrupación de selectores */
+ul, ol{
+	list-style: none; /* elimina la viñeta */
+	margin: 0;
+	padding: 0;
+	}
+figure{
+	margin: 0;
+}
+/*
+	tamaños
+		ancho - widht:;
+		alto - height:;
+
+	modelo de caja - box model
+		widht
+		height
+		padding
+		border
+			border-style: solid - dashed - dottet - double
+			border-widht
+			boder-color
+			border: #111 12px solid;
+		margin
+
+*/
