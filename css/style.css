@@ -8,14 +8,11 @@ body{
 	font-family: 'Raleway', sans-serif;
 	margin: 0;
 }
-.numeroplanuno{ color: #00aeeb; }
-.numeroplandos{ color: #fbdb66; }
-.numeroplantres{ color: orange; }
-.numeroplancuatro{ color: red; }
-.tduno{ text-align: center; }
-footer{ text-align: center;}
-h3, h4, nav{ text-transform: uppercase; }
-
+ul, ol{
+	list-style: none; /* elimina la viñeta */
+	margin: 0;
+	padding: 0;
+	}
 .main-header{
 	width: 1200px; 
 	margin: auto;
@@ -76,26 +73,134 @@ h3, h4, nav{ text-transform: uppercase; }
 	text-transform: uppercase;
 }
 .productos{ 
-	text-align: center;
 	width: 300px;
+	text-align: center;
 	float: left;
 	margin-top: 100px;
+	text-transform: uppercase;
+	padding: 2px;
 }
 .productos p{
 	font-size: 13px;
 	line-height: 30px;
 }
+.titlesecond {
+	text-align: center;
+	font-size: 38px;
+	font-weight: bold;
+	padding-top: 80px;
+}
+.bajadasecond {
+	text-align: center;
+	font-size: 20px;
+	color: grey;
+	position: relative;
+	bottom: 5px;
+}
+.services-one{
+	margin-top: 100px;
+	width: 400px;
+	float: left;
+	text-align: right;
+	padding-right: 15px;
+	text-transform: uppercase;
+}
+.services-two{
+	margin-top: 50px;
+	width: 400px;
+	float: left;
+	text-align: center;
+}
+.services-three{
+	margin-top: 100px;
+	width: 400px;
+	float: left;
+	padding-left: 15px;
+	text-transform: uppercase;
+ }
+.services-one p{
+	font-size: 14px;
+	color: grey;
+	line-height: 25px;
+	margin-bottom: 60px;
+}
+.services-three p{
+	font-size: 14px;
+	color: grey;
+	line-height: 25px;
+	margin-bottom: 60px;
+}
+#banner-price{
+	background: url(../images/pricing-bg.jpg) center top no-repeat;
+	background-size: contain;
+	margin-top: -80px; 
+}
+.title-price{
+	margin: 0;
+	text-align: center;
+	font-size: 38px;
+	font-weight: bold;
+	margin-top: 60px;
+}
+.prices{
+	text-align: center;
+	width: 270px;
+	float: left;
+	margin-right: 40px;
+	padding: 15px;
+	background-color: white;
+	border-radius: 3px 0;
+	box-shadow: 0 0 8px grey;
+}
+.no-margin{
+	margin: 0px;
+}
+.main-footer{
+	background-color: #243140;
+	color: white;
+	font-size: 30px;
+	margin: 0;
+	text-align: center;
+	padding: 100px;
+}
+.bg-dark{
+	background-color: #141C25;
+}
+.copyright{
+	float: left;
+}
+.nav-footer{
+	float: right;
+}
+.services-one li{
+	position: relative;
+	padding-right: 60px;
+}
+.services-one img{
+	position: absolute;
+	right: 0;
+	top: 0;
+	} 
+.services-three img{
+	position: absolute;
+	left: 0;
+	top: 0;
+	} 
+.services-three li{
+	position: relative;
+	padding-left: 60px;
+}
 
+
+/* prices:last-child 
+	prices;las-of-style
++/
 
 /* h2{ font-size: 45px;} */ 
 
 /* Resets */
 /* agrupación de selectores */
-ul, ol{
-	list-style: none; /* elimina la viñeta */
-	margin: 0;
-	padding: 0;
-	}
+
 figure{
 	margin: 0;
 }
