@@ -298,16 +298,16 @@ figure{
 	font-size: 14px;
 }
 .table-number-1{
-color: #83d6ff;
+	color: #83d6ff;
 }
 .table-number-2{
-color: #f9d429;
+	color: #f9d429;
 }
 .table-number-3{
-color: #ff9359;
+	color: #ff9359;
 }
 .table-number-4{
-color: #df3b19;
+	color: #df3b19;
 }
 
 .price-table a{
@@ -617,9 +617,9 @@ color: #df3b19;
 	}
 
 	.contact-form-left, .contact-form-right{
-	float: 	none;	
-	width: 	100%;
-}
+		float: 	none;	
+		width: 	100%;
+	}
 	.contact-form-right textarea{
 		float: 	none;	
 		margin-left: 0;
